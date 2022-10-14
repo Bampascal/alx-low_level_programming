@@ -10,6 +10,7 @@ int main(void)
 	char the_char;
 	long long the_long_long;
 	long the_long;
+
 	printf("Size of a char: %zu byte(s)\n", sizeof(the_char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(the_int));
 	printf("Size of a long int: %zu byte(s)\n", sizeof(the_long));
