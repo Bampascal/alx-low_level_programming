@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
-*main - Entry point*
+*main - Entry point
+*
 * Return: Always 0 (Success)
 *
 */
 int main(void)
-{int the_int;
+{	int the_int;
 	float the_float;
 	char the_char;
 	long long the_long_long;
