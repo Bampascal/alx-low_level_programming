@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -Entry point 1-last_digit.c
+ * main -Entry point
  *
  * Return: Always 0 (Success/Correct)
  */
