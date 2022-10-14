@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main Entry point of 3-print_alphabets.c
+ * main Entry point
  * Return: Always return 0 (Success of 3-print_alphabets.c)
  */
 int main(void)
