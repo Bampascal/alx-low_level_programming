@@ -1,26 +1,28 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main -0-positive_or_negative.c
+ * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (success/Correct)
  */
 int main(void)
 {
-	int x;
-	printf("Enter the number\n");
-	scanf("%li", &x);
-	printf("Value entered is %li \n");
-	if(x>0)
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n>0)
 	{
-		printf("%li is positive\n");
+		printf("%d is positive\n");
 	}
-	else if (x<0)
+	else if (n<0)
 	{
-		printf("%li is negative\n");
+		printf("%d is negative\n");
 	}
-	else if (x==0)
+	else if (n==0)
 	{
-		printf("%li is zero\n");
+		printf("%d is zero");
 	}
 	return (0);
 }
