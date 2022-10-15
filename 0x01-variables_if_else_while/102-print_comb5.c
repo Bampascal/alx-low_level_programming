@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main -Bampascal Entry point
+* main - Bampascal Entry point
 * Return:0
 */
 int main(void)
@@ -24,4 +24,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}:
+}
