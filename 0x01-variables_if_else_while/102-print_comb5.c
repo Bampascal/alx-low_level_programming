@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Bampascal to prints all possible combinations of two two-digit numbers.
- * Return:0
- */
+* main - Bampascal prints all possible combinations of two two-digit numbers
+* Return:0
+*/
 int main(void)
 {
 	int num1, num2;
