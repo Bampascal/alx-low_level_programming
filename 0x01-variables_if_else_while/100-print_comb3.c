@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - BamPascal to prints all possible different combinations of two digits.
- * Return:0
- */
+* main - BamPascal to prints all possible different combinations of two digits.
+* Return:0
+*/
 int main(void)
 {
 	int num1, num2;
@@ -15,7 +15,7 @@ int main(void)
 				putchar((num1 % 10) + '0');
 				putchar((num2 % 10) + '0');
 				if (num1 == 9 && num2 == 8)
-					break;
+					continue;
 				putchar(',');
 				putchar(' ');
 			}
