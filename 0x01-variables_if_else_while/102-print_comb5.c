@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main -Bampascal Entry to prints all possible combinations of two two-digit numbers.
+* main -Bampascal Entry point
 * Return:0
 */
 int main(void)
@@ -24,4 +24,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
+}:
