@@ -1,19 +1,11 @@
 #include <main.h>
 /**
  * main - BamPascal 0-putchar.c
- * Return:0
+ * Return:On success 1
  */
-int main(void)
+int _putchar(char c)
 {
 
-	_putchar('B');
-	_putchar('A');
-	_putchar('M');
-	_putchar('P');
-	_putchar('A');
-	_putchar('S');
-	_putchar('C');
-	_putchar('A');
-	_putchar('L');
+	return (write(1, &c, 1);
 	_putchar('\n');
 }
