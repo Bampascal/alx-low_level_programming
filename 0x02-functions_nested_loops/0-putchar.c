@@ -1,4 +1,5 @@
 #include <main.h>
+#include <unistd.h>
 /**
  * main - BamPascal 0-putchar.c
  * Return:On success 1
