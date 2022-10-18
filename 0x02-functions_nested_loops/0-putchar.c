@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main BamPascal 0-putchar.c
+ * main - BamPascal 0-putchar.c
  * Return:0
  */
 int main(void)
