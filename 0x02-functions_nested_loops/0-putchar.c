@@ -5,12 +5,15 @@
  */
 int main(void)
 {
-	int i[10];
 
-	for (i = 0; i <= 10; i++)
-	{
-		_putchar([i]);
-	}
-		_putchar('\n');
+	_putchar('B');
+	_putchar('A');
+	_putchar('M');
+	_putchar('P');
+	_putchar('A');
+	_putchar('S');
+	_putchar('C');
+	_putchar('A');
+	_putchar('L');
+	_putchar('\n');
 }
-
