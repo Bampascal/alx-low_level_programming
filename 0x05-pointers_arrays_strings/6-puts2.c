@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 /**
  * puts2 - Print one char out of two of a string.
  * @str: The string containing characters.
