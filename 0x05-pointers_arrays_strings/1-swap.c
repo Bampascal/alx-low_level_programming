@@ -7,7 +7,7 @@
  * @b: Another interger to swap
  *
  * Return: void
- * */
+ */
 void swap_int(int *a, int *b)
 {
 	int num;
@@ -16,4 +16,3 @@ void swap_int(int *a, int *b)
 	*a = *b;
 	*b = num;
 }
-
