@@ -7,11 +7,11 @@
  */
 void print_number(int n)
 {
-	unsigned int m, d, count;
+	unsigned int num = 0;
 
 	if (n < 0)
 	{
-		_putchar(45);
+		_putchar(' ');
 		num = -num;
 	}
 	if ((num / 10) > 0)
